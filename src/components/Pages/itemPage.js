@@ -13,9 +13,9 @@ function itemPage() {
             <div className="container">
                 <img src={Data[id].url
                 } alt={Data[id].title} className="item-img" />
-                <div className="item-info">
-                    <h1 className="item-title">{Data[id].title}</h1>
-                    <h3><p className="item-price">Description: {Data[id].description}</p></h3>
+                <div className="">
+                    <h1 className="">{Data[id].title}</h1>
+                    <h3><p className="">Description: {Data[id].description}</p></h3>
                 </div>
             </div>
         </div>
