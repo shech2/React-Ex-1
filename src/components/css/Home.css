@@ -7,8 +7,9 @@
     box-shadow: 0 10px 16px 0 black;
 }
 
-ul li {
+ul button {
     position: relative;
+    border-radius: 5px;
     margin: 0 auto;
     left: 30%;
     font-size: larger;

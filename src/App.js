@@ -14,9 +14,9 @@ function App() {
     <Router>
       <nav>
         <ul>
-          <li>
+          <button>
             <Link to="/">Home</Link>
-          </li>
+          </button>
         </ul>
       </nav>
       <Routes>
