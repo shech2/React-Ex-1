@@ -12,7 +12,7 @@ function ShoppingList(props) {
                     alt={props.title} className="item-img" />
                 <div className="item-info" >
                     <h1 className="item-title" > {props.title} </h1>
-                    <p className="item-price" >Price: ${props.price} </p>
+                    <p className="item-price" >Price: ${props.price} / per KG </p>
                     <p className="item-quantity" >Quantity: {props.quantity}</p>
                     <Link to={link} className="item-link" > <button className='button'>View Item</button> </Link>
 
